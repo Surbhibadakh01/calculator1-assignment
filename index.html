@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+         @font-face {
+    font-family: 'Digital-7 Mono Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Digital-7 Mono Italic'), url('digital-7 (mono italic).woff') format('woff');
+    }
+    .calculator:hover{
+        box-shadow: 2px 2px 5px 10px rgb(101, 100, 100);
+    }
+        .calculator{
+            height: 300px;
+            width: 250px;
+            background-color:#383737;
+            margin: 20px auto;
+            border-radius: 10px;
+            padding: 25px;
+            padding-top: 40px;
+            border-style: double;
+            border-bottom: #a71414;
+        }
+        .screen{
+            background-color: #333300;
+            text-align: right;
+            width: 230px;
+            padding: 5px 10px;
+            display: block;
+            margin: 0 auto;
+            font-size: 20px;
+            margin-bottom: 20px;
+            font-family: "Digital-7 Mono Italic";
+            border-style: double;
+        }
+        .btn2{
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .h3{
+            width: 50px;
+            text-align: center;
+            padding: 2px 0;
+            font-size: 20px;
+            margin: 3px;
+            background-color: aliceblue;
+            border: 3.5px solid white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .h3:hover{
+            box-shadow: 0 0 5px 0 #fff;
+        }
+        .h4{
+            background-color: rgb(62, 2, 2);
+            height: 70px;
+            width: 42px;
+            color:white;
+        }
+        .btn{
+            background-color: #6da7e9;
+            width: 50px;
+            height: 35px;
+            border-radius: 5px;
+        }
+        .h6{
+            
+            width: 50px;
+            text-align: center;
+            padding: 2px 0;
+            font-size: 20px;
+            margin: 3px;
+            background-color: #33455b;
+            border: 3.5px solid white;
+            border-radius: 5px;
+            cursor: pointe
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" value="o" class="screen"/>
+
+        <div class="btn2">
+            <button class="h6">AC</button>
+        <button class="h3">0</button>
+        <button class="h3">7</button>
+        <button class="h3">4</button>
+        <button class="h3">1</button>
+
+        <button class="h3">M+</button>
+        <button class="h3">.</button>
+        <button class="h3">8</button>
+        <button class="h3">5</button>
+        <button class="h3">2</button>
+ 
+        <button class="btn">M-</button>
+        <button class="h3">%</button>
+        <button class="h3">9</button>
+        <button class="h3">6</button>
+
+        <button class="h3">3</button>
+        <button class="btn">X</button>
+        <button class="btn">-</button>
+        <button class="btn">+</button>
+        <button class="h4">=</button>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
